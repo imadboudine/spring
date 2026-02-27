@@ -21,7 +21,7 @@ public class Application {
     @PostConstruct
     public void initialize() {
         //hello word
-        //mise à jour
+        //Rebase
         articleRepository.save(newArticle("Hello world !"));
         articleRepository.save(newArticle("Lorem ipsum dolor sit amet consectetur adipiscing"));
         articleRepository.save(newArticle("Foo Bar Power"));
